@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Escape to Valley View Family Resort in Chandragiri, Kathmandu, Nepal. Experience premium homestay hospitality, stunning valley views, campfire nights, and delicious local food. Book your peaceful stay now.">
+    <meta name="keywords" content="Valley View Family Resort, Resort in Chandragiri, Kathmandu Resorts, Family Homestay Nepal, Chandragiri Hotel, Nature Resort Kathmandu, Valley View Homestay">
+    <meta name="author" content="Valley View Family Resort">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Valley View Family Resort | Peaceful Retreat in Chandragiri, Kathmandu">
+    <meta property="og:description" content="Experience serene nature, premium homestay comfort, and warm hospitality in Chandragiri, Nepal. Perfect for family getaways, campfire evenings, and relaxation.">
+    <meta property="og:image" content="assets/hero_bg.jpg">
+    <meta property="og:url" content="https://valleyviewfamilyresort.web.app/">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Valley View Family Resort | Peaceful Retreat in Chandragiri, Kathmandu">
+    <meta property="twitter:description" content="Experience serene nature, premium homestay comfort, and warm hospitality in Chandragiri, Nepal. Perfect for family getaways, campfire evenings, and relaxation.">
+    <meta property="twitter:image" content="assets/hero_bg.jpg">
+
+    <title>Valley View Family Resort | Peaceful Retreat in Chandragiri, Kathmandu</title>
+    
+    <!-- Google Fonts: Playfair Display for headings & Inter for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons for modern, beautiful indicators -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Local Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== HEADER / NAVIGATION ==================== -->
+    <header class="header" id="header">
+        <div class="container navbar-container">
+            <a href="#home" class="logo-link" id="logo-link">
+                <div class="logo-wrapper">
+                    <img src="assets/logo.png" alt="Valley View Family Resort Logo" class="logo-img" onerror="this.style.height='36px';">
+                    <div class="logo-text-group">
+                        <span class="logo-title">Valley View</span>
+                        <span class="logo-subtitle-text">Family Resort</span>
+                    </div>
+                </div>
+            </a>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#rooms" class="nav-link">Rooms</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#events" class="nav-link">Events</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-mobile-cta">
+                    <button class="btn btn-primary btn-book-trigger">Book Now</button>
+                </div>
+            </nav>
+
+            <!-- Desktop CTA -->
+            <div class="nav-cta">
+                <button class="btn btn-primary btn-book-trigger" id="desktop-book-btn">Book Now</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="home" style="background-image: linear-gradient(rgba(30, 58, 39, 0.4), rgba(31, 36, 33, 0.7)), url('assets/hero_bg.jpg');">
+        <div class="container hero-container">
+            <div class="hero-content fade-in-up">
+                <span class="hero-subtitle">Serenity Meets Hospitality</span>
+                <h1 class="hero-title">Escape to Nature.<br>Experience Peace.</h1>
+                <p class="hero-desc">Welcome to Valley View Family Resort, your sanctuary tucked away in the serene hills of Chandragiri, Kathmandu. Breathe fresh mountain air and marvel at panoramic valley views.</p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary btn-lg btn-book-trigger">Book Your Stay</button>
+                    <a href="#about" class="btn btn-outline btn-lg">Explore Resort</a>
+                </div>
+            </div>
+            
+            <!-- Quick Features Banner -->
+            <div class="hero-quick-features fade-in-up delay-2">
+                <div class="quick-feature-item">
+                    <i class="fa-solid fa-cloud-sun"></i>
+                    <span>Panoramic Views</span>
+                </div>
+                <div class="quick-feature-item">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Family Environment</span>
+                </div>
+                <div class="quick-feature-item">
+                    <i class="fa-solid fa-tree"></i>
+                    <span>Lush Green Nature</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Down Indicator -->
+        <a href="#about" class="scroll-down" aria-label="Scroll to About Section">
+            <span class="scroll-mouse"><span class="wheel"></span></span>
+        </a>
+    </section>
+
+    <!-- ==================== ABOUT US SECTION ==================== -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <!-- Left: Text content -->
+                <div class="about-content animate-on-scroll">
+                    <span class="section-tag">Since 2020</span>
+                    <h2 class="section-title">Your Peaceful Sanctuary in Kathmandu</h2>
+                    <p class="about-lead">Valley View Family Resort offers an unmatched retreat from the hustle and bustle of city life, located on the picturesque slopes of Chandragiri.</p>
+                    <p class="about-text">Designed with family and peace in mind, our resort combines modern amenities with traditional Nepalese warmth. Whether you are walking through our organic gardens, enjoying an evening campfire with family, or simply sipping local tea while watching the sunset paint the valley below, you will find comfort and renewal at every corner.</p>
+                    
+                    <!-- Stats Grid -->
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-num" data-val="100">100%</span>
+                            <span class="stat-label">Nature-focused</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num" data-val="5">5+</span>
+                            <span class="stat-label">Years of Hospitality</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num" data-val="5000">5,000+</span>
+                            <span class="stat-label">Happy Guests</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Image composition -->
+                <div class="about-media animate-on-scroll delay-2">
+                    <div class="about-img-box">
+                        <img src="assets/gallery_scenery.jpg" alt="Valley View Resort Grounds" class="about-img main-img">
+                        <div class="about-badge">
+                            <i class="fa-solid fa-award"></i>
+                            <span>Premium Family Homestay Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ACCOMMODATIONS / ROOMS SECTION ==================== -->
+    <section class="rooms section-padding" id="rooms">
+        <div class="container">
+            <div class="section-header text-center animate-on-scroll">
+                <span class="section-tag">Luxury Comfort</span>
+                <h2 class="section-title">Our Accommodations</h2>
+                <p class="section-subtitle">Choose from our curated rooms, each designed with large windows to frame the breathtaking mountain and valley views.</p>
+            </div>
+
+            <div class="rooms-grid">
+                <!-- Room 1: Standard Cozy -->
+                <div class="room-card animate-on-scroll" data-room-type="cozy-standard">
+                    <div class="room-img-wrapper">
+                        <img src="assets/room_standard.jpg" alt="Cozy Standard Room" class="room-img">
+                        <span class="room-price">NRs. 1,500 <small>/ Night</small></span>
+                    </div>
+                    <div class="room-details">
+                        <h3 class="room-name">Cozy Standard Room</h3>
+                        <p class="room-desc">A perfect blend of warmth and simplicity. Ideal for couples or solo travelers looking for a serene garden view.</p>
+                        
+                        <div class="room-amenities">
+                            <span class="amenity-tag"><i class="fa-solid fa-wifi"></i> Free Wi-Fi</span>
+                            <span class="amenity-tag"><i class="fa-solid fa-shower"></i> Hot Water</span>
+                            <span class="amenity-tag"><i class="fa-solid fa-mug-hot"></i> Coffee Maker</span>
+                            <span class="amenity-tag"><i class="fa-solid fa-mountain"></i> Garden View</span>
+                        </div>
+                        
+                        <div class="room-footer">
+                            <div class="room-specs">
+                                <span><i class="fa-solid fa-user-group"></i> Max 2 Adults</span>
+                                <span><i class="fa-solid fa-bed"></i> 1 Queen Bed</span>
+                            </div>
+                            <button class="btn btn-outline-primary btn-book-room" data-room="Cozy Standard Room">Book Room</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Room 2: Deluxe Panorama -->
+                <div class="room-card featured animate-on-scroll delay-2" data-room-type="deluxe-panorama">
+                    <div class="room-img-wrapper">
+                        <img src="assets/room_deluxe.jpg" alt="Deluxe Panorama Room" class="room-img">
+                        <span class="room-price">NRs. 2,000 <small>/ Night</small></span>
+                        <span class="badge-featured">Most Popular</span>
+                    </div>
+                    <div class="room-details">
+                        <h3 class="room-name">Deluxe Panorama Room</h3>
+                        <p class="room-desc">Enjoy full-length sliding glass doors that open up to a private balcony, offering sweeping views of the Kathmandu Valley.</p>
+                        
+                        <div class="room-amenities">
+                            <span class="amenity-tag"><i class="fa-solid fa-wifi"></i> Free Wi-Fi</span>
+                            <span class="amenity-tag"><i class="fa-solid fa-shower"></i> Hot Water</span>
+                            <span class="amenity-tag"><i class="fa-solid fa-tv"></i> Smart TV</span>
+                            <span class="amenity-tag"><i class="fa-solid fa-door-open"></i> Private Balcony</span>
+                            <span class="amenity-tag"><i class="fa-solid fa-wind"></i> Air Conditioning</span>
+                        </div>
+                        
+                        <div class="room-footer">
+                            <div class="room-specs">
+                                <span><i class="fa-solid fa-user-group"></i> Max 2 Adults + 1 Kid</span>
+                                <span><i class="fa-solid fa-bed"></i> 1 King Bed</span>
+                            </div>
+                            <button class="btn btn-primary btn-book-room" data-room="Deluxe Panorama Room">Book Room</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Room 3: Executive Family Suite -->
+                <div class="room-card animate-on-scroll delay-3" data-room-type="family-suite">
+                    <div class="room-img-wrapper">
+                        <img src="assets/room_family.jpg" alt="Executive Family Suite" class="room-img">
+                        <span class="room-price">NRs. 3,000 <small>/ Night</small></span>
+                    </div>
+                    <div class="room-details">
+                        <h3 class="room-name">Executive Family Suite</h3>
+                        <p class="room-desc">Designed for family bonding. Features an integrated spacious lounge, local fireplace elements, and majestic sunset views.</p>
+                        
+                        <div class="room-amenities">
+                            <span class="amenity-tag"><i class="fa-solid fa-wifi"></i> Free Wi-Fi</span>
+                            <span class="amenity-tag"><i class="fa-solid fa-shower"></i> Hot Water</span>
+                            <span class="amenity-tag"><i class="fa-solid fa-couch"></i> Seating Lounge</span>
+                            <span class="amenity-tag"><i class="fa-solid fa-tv"></i> 55" Smart TV</span>
+                            <span class="amenity-tag"><i class="fa-solid fa-mountain-sun"></i> Mountain View</span>
+                        </div>
+                        
+                        <div class="room-footer">
+                            <div class="room-specs">
+                                <span><i class="fa-solid fa-user-group"></i> Max 4 Adults</span>
+                                <span><i class="fa-solid fa-bed"></i> 2 Queen Beds</span>
+                            </div>
+                            <button class="btn btn-outline-primary btn-book-room" data-room="Executive Family Suite">Book Room</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SERVICES & AMENITIES SECTION ==================== -->
+    <section class="services section-padding bg-light" id="services">
+        <div class="container">
+            <div class="section-header text-center animate-on-scroll">
+                <span class="section-tag">Modern Comforts</span>
+                <h2 class="section-title">Resort Services & Amenities</h2>
+                <p class="section-subtitle">We host a variety of premium amenities designed to make your family staycation refreshing and enjoyable.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1: Restaurant -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <h3 class="service-title">Multi-Cuisine Restaurant</h3>
+                    <p class="service-desc">Relish traditional organic local Nepalese cuisine (Dhido, Local Chicken) along with popular continental dishes, fresh from our kitchen.</p>
+                </div>
+
+                <!-- Service 2: Wi-Fi -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-wifi"></i>
+                    </div>
+                    <h3 class="service-title">High-Speed Wi-Fi</h3>
+                    <p class="service-desc">Stay connected with high-speed internet covering the entire property. Perfect for remote work while nestled in nature.</p>
+                </div>
+
+                <!-- Service 3: Campfire -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <h3 class="service-title">Campfire & Barbecue</h3>
+                    <p class="service-desc">Gather around the warm stone bonfire under the starry Kathmandu sky. We arrange custom barbecues and live music setups on request.</p>
+                </div>
+
+                <!-- Service 4: Parking -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-square-parking"></i>
+                    </div>
+                    <h3 class="service-title">Secure Free Parking</h3>
+                    <p class="service-desc">Spacious, secure, and free on-site parking for all our guests' private cars, SUVs, and motorbikes with 24/7 security.</p>
+                </div>
+
+                <!-- Service 5: Nature Walks -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-mountain-sun"></i>
+                    </div>
+                    <h3 class="service-title">Guided Nature Trails</h3>
+                    <p class="service-desc">Explore the lush forested paths of Chandragiri with local guides. Enjoy morning bird watching and spectacular view points.</p>
+                </div>
+
+                <!-- Service 6: Kids Zone -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-child-reaching"></i>
+                    </div>
+                    <h3 class="service-title">Family & Kids Play Area</h3>
+                    <p class="service-desc">A safe, grassy playground and indoor board games setup, ensuring that children and families stay entertained during their visit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EVENT CELEBRATION SECTION ==================== -->
+    <section class="events section-padding" id="events">
+        <div class="container">
+            <div class="section-header text-center animate-on-scroll">
+                <span class="section-tag">Unforgettable Moments</span>
+                <h2 class="section-title">Events & Celebrations</h2>
+                <p class="section-subtitle">Celebrate your special occasions surrounded by the majestic hills of Chandragiri. From birthdays to family picnics, we make it perfect.</p>
+            </div>
+
+            <div class="events-grid-layout">
+                <!-- Left Column: Details -->
+                <div class="events-content animate-on-scroll">
+                    <h3 class="events-subheading">Host Your Perfect Gathering</h3>
+                    <p class="events-text">Looking for a spacious, peaceful, and picturesque venue to celebrate with your loved ones? Valley View Family Resort is the ultimate choice for hosting birthday celebrations, anniversary parties, family reunions, corporate retreats, and overnight gatherings.</p>
+                    
+                    <div class="event-features">
+                        <div class="event-feature-item">
+                            <i class="fa-solid fa-cake-candles"></i>
+                            <div>
+                                <h4>Custom Celebrations</h4>
+                                <p>Flexible seating, beautiful outdoor party lawns, theme decorations, and stage setups customized for your specific event.</p>
+                            </div>
+                        </div>
+                        <div class="event-feature-item">
+                            <i class="fa-solid fa-drumstick-bite"></i>
+                            <div>
+                                <h4>Premium Catering & BBQ</h4>
+                                <p>Delicious Nepalese and international buffets, live barbecue counters, organic local chicken, and custom menus.</p>
+                            </div>
+                        </div>
+                        <div class="event-feature-item">
+                            <i class="fa-solid fa-guitar"></i>
+                            <div>
+                                <h4>Music & Entertainment</h4>
+                                <p>Live music support, high-quality sound system setups, bonfire circles, and dancing spaces under the stars.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="events-cta-box">
+                        <button class="btn btn-primary btn-book-event">Book Your Event</button>
+                        <a href="#contact" class="btn btn-outline-primary">Inquire Pricing</a>
+                    </div>
+                </div>
+
+                <!-- Right Column: 6 Image Grid Gallery -->
+                <div class="events-gallery-side animate-on-scroll delay-2">
+                    <div class="events-photo-grid">
+                        <div class="event-photo-item">
+                            <div class="gallery-img-box">
+                                <img src="assets/ev1.jpg" alt="Outdoor Lawn Party" class="gallery-img">
+                                <div class="gallery-overlay">
+                                    <span class="gallery-category">Event Celebration</span>
+                                    <h4 class="gallery-title">Outdoor Lawn Party</h4>
+                                    <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-photo-item">
+                            <div class="gallery-img-box">
+                                <img src="assets/ev2.jpg" alt="Evening Dining Setup" class="gallery-img">
+                                <div class="gallery-overlay">
+                                    <span class="gallery-category">Event Celebration</span>
+                                    <h4 class="gallery-title">Evening Dining Setup</h4>
+                                    <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-photo-item">
+                            <div class="gallery-img-box">
+                                <img src="assets/ev3.jpg" alt="Birthday Decoration" class="gallery-img">
+                                <div class="gallery-overlay">
+                                    <span class="gallery-category">Event Celebration</span>
+                                    <h4 class="gallery-title">Birthday Decoration</h4>
+                                    <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-photo-item">
+                            <div class="gallery-img-box">
+                                <img src="assets/ev4.jpg" alt="Bonfire Gathering" class="gallery-img">
+                                <div class="gallery-overlay">
+                                    <span class="gallery-category">Event Celebration</span>
+                                    <h4 class="gallery-title">Bonfire Gathering</h4>
+                                    <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-photo-item">
+                            <div class="gallery-img-box">
+                                <img src="assets/ev5.jpg" alt="Corporate Picnic" class="gallery-img">
+                                <div class="gallery-overlay">
+                                    <span class="gallery-category">Event Celebration</span>
+                                    <h4 class="gallery-title">Corporate Picnic</h4>
+                                    <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-photo-item">
+                            <div class="gallery-img-box">
+                                <img src="assets/ev6.jpg" alt="Family Feast Setup" class="gallery-img">
+                                <div class="gallery-overlay">
+                                    <span class="gallery-category">Event Celebration</span>
+                                    <h4 class="gallery-title">Family Feast Setup</h4>
+                                    <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== GALLERY SECTION ==================== -->
+    <section class="gallery section-padding" id="gallery">
+        <div class="container">
+            <div class="section-header text-center animate-on-scroll">
+                <span class="section-tag">Visual Tour</span>
+                <h2 class="section-title">Resort Gallery</h2>
+                <p class="section-subtitle">Take a virtual tour of Valley View Family Resort - showcasing our grounds, delicious meals, and cozy vibes.</p>
+            </div>
+            
+            <!-- Gallery Filtering Tabs -->
+            <div class="gallery-filters text-center animate-on-scroll">
+                <button class="btn btn-filter active" data-filter="all">All Photos</button>
+                <button class="btn btn-filter" data-filter="nature">Nature & Views</button>
+                <button class="btn btn-filter" data-filter="dining">Food & Drinks</button>
+                <button class="btn btn-filter" data-filter="rooms">Rooms</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid animate-on-scroll">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item" data-category="nature">
+                    <div class="gallery-img-box">
+                        <img src="assets/gallery_scenery.jpg" alt="Resort Scenic Garden Path" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="gallery-category">Nature & Views</span>
+                            <h4 class="gallery-title">Resort Scenic Pathway</h4>
+                            <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item" data-category="dining">
+                    <div class="gallery-img-box">
+                        <!-- Real local dining image -->
+                        <img src="assets/473328162_981878690473941_8422310250181530232_n.jpg" alt="Resort Traditional Dining Spread" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="gallery-category">Food & Drinks</span>
+                            <h4 class="gallery-title">Local Organic Cuisine</h4>
+                            <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item" data-category="rooms">
+                    <div class="gallery-img-box">
+                        <img src="assets/room_deluxe.jpg" alt="Deluxe Room Interior View" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="gallery-category">Rooms</span>
+                            <h4 class="gallery-title">Deluxe Room Glass View</h4>
+                            <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item" data-category="nature">
+                    <div class="gallery-img-box">
+                        <!-- Real local campfire image -->
+                        <img src="assets/473077971_978094877518989_2279012092737476038_n.jpg" alt="Cozy Fireplace / Campfire Setup" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="gallery-category">Nature & Views</span>
+                            <h4 class="gallery-title">Evening Bonfire Circle</h4>
+                            <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item" data-category="dining">
+                    <div class="gallery-img-box">
+                        <!-- Real local coffee/tea image -->
+                        <img src="assets/ff.jpg" alt="Local Brewed Coffee and Tea" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="gallery-category">Food & Drinks</span>
+                            <h4 class="gallery-title">Fresh Mountain Coffee</h4>
+                            <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item" data-category="rooms">
+                    <div class="gallery-img-box">
+                        <img src="assets/room_standard.jpg" alt="Standard Room Bed Layout" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="gallery-category">Rooms</span>
+                            <h4 class="gallery-title">Standard Room Comforts</h4>
+                            <span class="zoom-icon"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT US SECTION ==================== -->
+    <section class="contact section-padding bg-light" id="contact">
+        <div class="container">
+            <div class="section-header text-center animate-on-scroll">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Contact & Location</h2>
+                <p class="section-subtitle">Ready to experience the tranquility? Reach out to plan your booking or message us directly below.</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Left: Contact Information & Map -->
+                <div class="contact-info-block animate-on-scroll">
+                    <h3 class="contact-subtitle">Resort Details</h3>
+                    <p class="contact-desc">We are nestled in Chandragiri-8, offering a bird's-eye view of the stunning valley. Easily accessible from central Kathmandu.</p>
+                    
+                    <div class="contact-info-details">
+                        <div class="info-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <h4>Resort Location</h4>
+                                <p>Chandragiri Municipality, Ward 8, Kathmandu, Nepal</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <h4>Phone Numbers</h4>
+                                <p><a href="tel:+9779851226822">+977-9851226822</a>, <a href="tel:+9779765354651">+977-9765354651</a></p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <h4>Email Address</h4>
+                                <p><a href="mailto:booking@valleyviewresort.com">booking@valleyviewresort.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Embedded Map (centered around Chandragiri area) -->
+                    <div class="map-wrapper">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14134.195155490487!2d85.24430485!3d27.6710471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19a4b8df1a75%3A0xc00f146a8cdba1de!2sChandragiri%208!5e0!3m2!1sen!2snp!4v1716912345678!5m2!1sen!2snp" 
+                            width="100%" 
+                            height="240" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Valley View Family Resort Google Map Location">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Right: Contact / Inquiry Form -->
+                <div class="contact-form-block animate-on-scroll delay-2">
+                    <h3 class="contact-subtitle">Send an Inquiry</h3>
+                    <p class="contact-desc">Have questions about packages, menus, or room availability? Fill out this form and we'll reply within 2 hours.</p>
+                    
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contact-name">Full Name <span class="required">*</span></label>
+                                <input type="text" id="contact-name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-phone">Phone Number <span class="required">*</span></label>
+                                <input type="tel" id="contact-phone" name="phone" placeholder="+977 9841XXXXXX" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-email">Email Address <span class="required">*</span></label>
+                            <input type="email" id="contact-email" name="email" placeholder="example@email.com" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contact-room">Room / Venue of Interest</label>
+                                <select id="contact-room" name="room">
+                                    <option value="none">General Inquiry</option>
+                                    <option value="Cozy Standard Room">Cozy Standard Room (NRs. 1,500)</option>
+                                    <option value="Deluxe Panorama Room">Deluxe Panorama Room (NRs. 2,000)</option>
+                                    <option value="Executive Family Suite">Executive Family Suite (NRs. 3,000)</option>
+                                    <option value="Event Celebration Venue">Event Celebration Venue</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-guests">Number of Guests</label>
+                                <input type="number" id="contact-guests" name="guests" min="1" max="100" value="2">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-message">Message <span class="required">*</span></label>
+                            <textarea id="contact-message" name="message" rows="5" placeholder="Write your message or custom booking requirements here..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block" id="contact-submit">
+                            <span class="btn-text">Submit Inquiry</span>
+                            <span class="btn-spinner" style="display:none;"><i class="fa-solid fa-circle-notch fa-spin"></i></span>
+                        </button>
+                        
+                        <!-- Success / Error messages -->
+                        <div class="form-message success" id="form-success-msg" style="display: none;">
+                            <i class="fa-solid fa-circle-check"></i> Inquiry sent successfully! We will contact you shortly.
+                        </div>
+                        <div class="form-message error" id="form-error-msg" style="display: none;">
+                            <i class="fa-solid fa-circle-xmark"></i> Something went wrong. Please check your network and try again.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <!-- Col 1: About Brand -->
+            <div class="footer-col brand-col">
+                <h3 class="footer-logo">Valley View Family Resort</h3>
+                <p class="footer-desc">A premium family resort located in Chandragiri, offering stunning natural views, organic hospitality, and peaceful family getaways.</p>
+                <div class="footer-socials">
+                    <!-- Real Facebook Link -->
+                    <a href="https://www.facebook.com/valleyviewfamilyresort/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook Page"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Col 2: Navigation links -->
+            <div class="footer-col links-col">
+                <h4 class="footer-title">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#rooms">Accommodations</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact & Map</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3: Room Packages -->
+            <div class="footer-col packages-col">
+                <h4 class="footer-title">Our Rooms</h4>
+                <ul class="footer-links">
+                    <li><a href="#rooms" class="room-selector-trigger" data-room="cozy-standard">Cozy Standard (NRs. 1,500)</a></li>
+                    <li><a href="#rooms" class="room-selector-trigger" data-room="deluxe-panorama">Deluxe Panorama (NRs. 2,000)</a></li>
+                    <li><a href="#rooms" class="room-selector-trigger" data-room="family-suite">Executive Family Suite (NRs. 3,000)</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 4: Newsletter -->
+            <div class="footer-col newsletter-col">
+                <h4 class="footer-title">Stay Connected</h4>
+                <p class="footer-desc">Subscribe to get seasonal packages, festive offers, and local guide tips directly in your inbox.</p>
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="email" placeholder="Your Email Address" required aria-label="Email for newsletter">
+                    <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+                <div class="newsletter-msg" id="newsletter-success" style="display:none; color: var(--color-gold); font-size: 0.85rem; margin-top: 8px;">
+                    <i class="fa-solid fa-check"></i> Subscribed! Thank you.
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p class="copyright">&copy; 2026 Valley View Family Resort. All rights reserved.</p>
+                <p class="developer-credit">Designed & Maintained for Google Firebase hosting.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== BOOKING MODAL ==================== -->
+    <div class="modal" id="booking-modal" aria-hidden="true" role="dialog">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content animate-modal">
+            <button class="modal-close" id="modal-close-btn" aria-label="Close Booking Modal">&times;</button>
+            <div class="modal-header">
+                <i class="fa-solid fa-calendar-check modal-header-icon"></i>
+                <h2 class="modal-title">Book Your Stay</h2>
+                <p class="modal-subtitle">Fill in details, and our front desk will coordinate payment and reservation details.</p>
+            </div>
+            <div class="modal-body">
+                <form id="booking-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="book-name">Full Name <span class="required">*</span></label>
+                            <input type="text" id="book-name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="book-phone">Phone Number <span class="required">*</span></label>
+                            <input type="tel" id="book-phone" required placeholder="+977 98XXXXXXXX">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="book-email">Email Address <span class="required">*</span></label>
+                        <input type="email" id="book-email" required placeholder="example@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="book-room">Select Accommodation / Venue <span class="required">*</span></label>
+                        <select id="book-room" required>
+                            <option value="" disabled selected>Choose a room or venue...</option>
+                            <option value="Cozy Standard Room">Cozy Standard Room (NRs. 1,500/night)</option>
+                            <option value="Deluxe Panorama Room">Deluxe Panorama Room (NRs. 2,000/night)</option>
+                            <option value="Executive Family Suite">Executive Family Suite (NRs. 3,000/night)</option>
+                            <option value="Event Celebration Venue">Event Celebration & Party Venue</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="book-checkin">Check-In Date <span class="required">*</span></label>
+                            <input type="date" id="book-checkin" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="book-checkout">Check-Out Date <span class="required">*</span></label>
+                            <input type="date" id="book-checkout" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="book-guests">Adults</label>
+                            <input type="number" id="book-guests" min="1" max="10" value="2">
+                        </div>
+                        <div class="form-group">
+                            <label for="book-kids">Kids</label>
+                            <input type="number" id="book-kids" min="0" max="10" value="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="book-requests">Special Requests / Dietary Needs</label>
+                        <textarea id="book-requests" rows="3" placeholder="e.g. Vegetarian, early check-in, campfire request..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block btn-lg" id="booking-submit">
+                        <span class="btn-text">Confirm Booking Request</span>
+                        <span class="btn-spinner" style="display:none;"><i class="fa-solid fa-circle-notch fa-spin"></i></span>
+                    </button>
+                    
+                    <div class="form-message success" id="booking-success-msg" style="display: none;">
+                        <i class="fa-solid fa-circle-check"></i> Booking request received! Check your email or phone for confirmation.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== LIGHTBOX GALLERY MODAL ==================== -->
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog">
+        <button class="lightbox-close" id="lightbox-close-btn" aria-label="Close Lightbox">&times;</button>
+        <button class="lightbox-prev" id="lightbox-prev-btn" aria-label="Previous Image">&#10094;</button>
+        <button class="lightbox-next" id="lightbox-next-btn" aria-label="Next Image">&#10095;</button>
+        <div class="lightbox-content-box">
+            <img src="" alt="" class="lightbox-img" id="lightbox-img">
+            <div class="lightbox-caption">
+                <span class="lightbox-category" id="lightbox-category"></span>
+                <h4 class="lightbox-title" id="lightbox-title"></h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle -->
+    <script src="script.js"></script>
+</body>
+</html>
